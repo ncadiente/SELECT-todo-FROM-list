@@ -60,6 +60,10 @@ SELECT title
 FROM tasks
 WHERE title LIKE '%mistake%';
 
+DELETE
+FROM tasks
+WHERE title = 'mistake 1';
+
 
 
 
