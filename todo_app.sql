@@ -43,3 +43,8 @@ SELECT title, description
 FROM tasks
 WHERE completed_at IS NULL;
 
+SELECT *
+FROM tasks
+ORDER BY id DESC;
+
+
